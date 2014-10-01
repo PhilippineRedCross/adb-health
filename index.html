@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Health Facility Recovery</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/leaflet.css" rel="stylesheet" />
+<!--     <link href="css/MarkerCluster.css" rel="stylesheet" />
+    <link href="css/MarkerCluster.Default.css" rel="stylesheet" /> -->
+    <link href="css/custom.css" rel="stylesheet" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+  </head>
+
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div>
+          <a class="navbar-brand navbar-logo" href="#" target="_blank"><img class="prc-logo" src="img/PRC-logo_whiteborder.png"></a>
+          <a class="navbar-brand" href="http://www.redcross.org.ph/">Philippine Red Cross</a>
+          <a class="navbar-brand" href="#"><small>Asian Development Bank - Health Facility Recovery</small></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div id="loading"><img id="loader" src="img/ajax_loader_gray_512.gif" /></div>     -->
+     
+    <div class="container-fluid">     
+      <div class="col-sm-9 col-map">
+        <button class="btn btn-sm btn-zoom" type="button" onClick="zoomOut();"><span class="glyphicon glyphicon-zoom-out"></span> Full Extent</button> 
+        <div id="map"></div>
+      </div> <!-- /.col-sm-9 -->
+      <div class="col-sm-3">
+        <div id="infoWrapper">
+          <div class="infoText">
+            <div class="pageDescription">
+              <p>Page Description.</p><p>Last updated October 1, 2014.</p>
+            </div>
+          </div> <!--  /.infoText  -->
+
+        </div> <!--  /.infoWrapper  -->      
+      </div> <!-- /.col-sm-3 -->
+    </div> <!-- /.container-fluid -->
+
+    <script src="js/jQuery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/leaflet.js"></script>
+<!-- <script src="js/d3.min.js"></script> -->
+<!-- <script src="js/leaflet.markercluster-src.js"></script> -->
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
