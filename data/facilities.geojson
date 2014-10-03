@@ -1,1 +1,1914 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"province":"Eastern Samar","municipali":"Balangiga","barangay":"Barangay Poblacion III","name":"Balangiga District Hospital","admin2":"PH082602000","admin3":"PH082602007","type":"hospital_doh","X":125.394927,"Y":11.118248,"admin2_X":125.36389,"admin2_Y":11.201657},"geometry":{"type":"Point","coordinates":[125.39137244225,11.107363258644]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Palo","barangay":"Candahug","name":"Leyte Provincial Hospital","admin2":"PH083739000","admin3":"PH083739009","type":"hospital_doh","X":125.00902,"Y":11.175379,"admin2_X":124.964415,"admin2_Y":11.141815},"geometry":{"type":"Point","coordinates":[125.00572443008,11.180948983149]}},{"type":"Feature","properties":{"province":"Eastern Samar","municipali":"BALANGKAYAN","barangay":null,"name":"Balankayan RHU","admin2":"PH082603000","admin3":"#N/A","type":"health_facility","X":125.319153,"Y":11.372971,"admin2_X":125.319153,"admin2_Y":11.372971},"geometry":{"type":"Point","coordinates":[125.51068782806,11.473043135652]}},{"type":"Feature","properties":{"province":"Eastern Samar","municipali":"Borongan City","barangay":"Songco","name":"Eastern Samar Provincial Hospital","admin2":"PH082604000","admin3":"PH082604055","type":"hospital_doh","X":125.427348,"Y":11.61742,"admin2_X":125.34943,"admin2_Y":11.594164},"geometry":{"type":"Point","coordinates":[125.43130517006,11.611789206783]}},{"type":"Feature","properties":{"province":"Eastern Samar","municipali":"General Macarthur","barangay":null,"name":"Gen. McArthur Health Unit","admin2":"PH082607000","admin3":"#N/A","type":"health_facility","X":125.498735,"Y":11.263891,"admin2_X":125.498735,"admin2_Y":11.263891},"geometry":{"type":"Point","coordinates":[125.538636446,11.246439885205]}},{"type":"Feature","properties":{"province":"Eastern Samar","municipali":"Giporlos","barangay":null,"name":"Giporlos RHU","admin2":"PH082608000","admin3":"#N/A","type":"health_facility","X":125.443403,"Y":11.129379,"admin2_X":125.443403,"admin2_Y":11.129379},"geometry":{"type":"Point","coordinates":[125.44876098633,11.12273879672]}},{"type":"Feature","properties":{"province":"Eastern Samar","municipali":"Guiuan","barangay":"Hillsview","name":"Felipe Abrigo Memo Hospital","admin2":"PH082609000","admin3":"#N/A","type":"hospital_doh","X":125.779935,"Y":10.715523,"admin2_X":125.779935,"admin2_Y":10.715523},"geometry":{"type":"Point","coordinates":[125.72934150696,11.035601808603]}},{"type":"Feature","properties":{"province":"Eastern Samar","municipali":"GUIUAN","barangay":null,"name":"Guiuan RHU I","admin2":"PH082609000","admin3":"#N/A","type":"health_facility","X":125.779935,"Y":10.715523,"admin2_X":125.779935,"admin2_Y":10.715523},"geometry":{"type":"Point","coordinates":[125.73305368423,11.030505029964]}},{"type":"Feature","properties":{"province":"Eastern Samar","municipali":"GUIUAN","barangay":null,"name":"Sulangan (Guiuan) RHU","admin2":"PH082609000","admin3":"#N/A","type":"health_facility","X":125.779935,"Y":10.715523,"admin2_X":125.779935,"admin2_Y":10.715523},"geometry":{"type":"Point","coordinates":[125.82690954208,10.936788627015]}},{"type":"Feature","properties":{"province":"Eastern Samar","municipali":"HERNANI","barangay":null,"name":"Hernani RHU","admin2":"PH082610000","admin3":"#N/A","type":"health_facility","X":125.592363,"Y":11.326681,"admin2_X":125.592363,"admin2_Y":11.326681},"geometry":{"type":"Point","coordinates":[125.61810493469,11.326223314161]}},{"type":"Feature","properties":{"province":"Eastern Samar","municipali":"Lawaan","barangay":"Barangay Poblacion 1","name":"Lawaan RHU","admin2":"PH082612000","admin3":"PH082612010","type":"health_facility","X":125.29498,"Y":11.147487,"admin2_X":125.286764,"admin2_Y":11.202071},"geometry":{"type":"Point","coordinates":[125.29498,11.1474875]}},{"type":"Feature","properties":{"province":"Eastern Samar","municipali":"Llorente","barangay":null,"name":"Llorente Rural Health Unit","admin2":"PH082613000","admin3":"#N/A","type":"health_facility","X":125.447342,"Y":11.342563,"admin2_X":125.447342,"admin2_Y":11.342563},"geometry":{"type":"Point","coordinates":[125.5455994606,11.409297316085]}},{"type":"Feature","properties":{"province":"Eastern Samar","municipali":"Mercedes","barangay":"Barangay 1 Poblacion","name":"Mercedes RHU","admin2":"PH082616000","admin3":"PH082616008","type":"health_facility","X":125.71714,"Y":11.104235,"admin2_X":125.70491,"admin2_Y":11.092883},"geometry":{"type":"Point","coordinates":[125.71243286133,11.096208775145]}},{"type":"Feature","properties":{"province":"Eastern Samar","municipali":"Quinapondan","barangay":null,"name":"Quinapondan Com Hospital","admin2":"PH082618000","admin3":"#N/A","type":"hospital_doh","X":125.476423,"Y":11.189628,"admin2_X":125.476423,"admin2_Y":11.189628},"geometry":{"type":"Point","coordinates":[125.51648139954,11.157603151525]}},{"type":"Feature","properties":{"province":"Eastern Samar","municipali":"QUINAPONDAN","barangay":null,"name":"Quinapondan RHU","admin2":"PH082618000","admin3":"#N/A","type":"health_facility","X":125.476423,"Y":11.189628,"admin2_X":125.476423,"admin2_Y":11.189628},"geometry":{"type":"Point","coordinates":[125.52034378052,11.159708353133]}},{"type":"Feature","properties":{"province":"Eastern Samar","municipali":"Salcedo","barangay":null,"name":"Salcedo RHU","admin2":"PH082619000","admin3":"#N/A","type":"health_facility","X":125.59432,"Y":11.14742,"admin2_X":125.59432,"admin2_Y":11.14742},"geometry":{"type":"Point","coordinates":[125.66402435303,11.150108509988]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"ABUYOG","barangay":"Balocawehay","name":"Abuyog RHU","admin2":"PH083701000","admin3":"PH083701008","type":"health_facility","X":124.98003,"Y":10.731443,"admin2_X":125.09164,"admin2_Y":10.634046},"geometry":{"type":"Point","coordinates":[124.98110175133,10.741793812451]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"ABUYOG","barangay":"Bunga","name":"Abuyog District Hospital","admin2":"PH083701000","admin3":"PH083701014","type":"hospital_doh","X":125.006723,"Y":10.763418,"admin2_X":125.09164,"admin2_Y":10.634046},"geometry":{"type":"Point","coordinates":[125.00321388245,10.759385954694]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Alangalang","barangay":"San Roque","name":"Alang-alang RHU","admin2":"PH083702000","admin3":"PH083702054","type":"health_facility","X":124.846272,"Y":11.212068,"admin2_X":124.865405,"admin2_Y":11.210308},"geometry":{"type":"Point","coordinates":[124.84519958496,11.211407308358]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Albuera","barangay":"Poblacion","name":"Albuera RHU","admin2":"PH083703000","admin3":"PH083703010","type":"health_facility","X":124.740915,"Y":10.930413,"admin2_X":124.745502,"admin2_Y":10.925819},"geometry":{"type":"Point","coordinates":[124.69654083252,10.918943546447]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Barugo","barangay":"Poblacion Dist. III","name":"Barugo RHU","admin2":"PH083706000","admin3":"PH083706025","type":"health_facility","X":124.73551,"Y":11.327247,"admin2_X":124.769026,"admin2_Y":11.307844},"geometry":{"type":"Point","coordinates":[124.73717093468,11.324403367293]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Baybay City","barangay":"Poblacion Zone 2","name":"Western Leyte Provincial Hospital","admin2":"PH083708000","admin3":"PH083708058","type":"hospital_doh","X":124.808469,"Y":10.682029,"admin2_X":124.887,"admin2_Y":10.641419},"geometry":{"type":"Point","coordinates":[124.79773521423,10.680576987617]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Burauen","barangay":"Poblacion District I","name":"Burauen District Hospital","admin2":"PH083710000","admin3":"PH083710018","type":"hospital_doh","X":124.893086,"Y":10.98366,"admin2_X":124.898253,"admin2_Y":10.977365},"geometry":{"type":"Point","coordinates":[124.89308621304,10.98365956154]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Burauen","barangay":"Poblacion District VII","name":"Burauen RHU","admin2":"PH083710000","admin3":"PH083710024","type":"health_facility","X":124.888453,"Y":10.972206,"admin2_X":124.898253,"admin2_Y":10.977365},"geometry":{"type":"Point","coordinates":[124.8884525,10.972206445907]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Calubian","barangay":"Cristina","name":"North western Leyte District Hospital","admin2":"PH083713000","admin3":"PH083713014","type":"hospital_doh","X":124.418555,"Y":11.450847,"admin2_X":124.41322,"admin2_Y":11.43679},"geometry":{"type":"Point","coordinates":[124.42823410034,11.441666254796]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Calubian","barangay":"Poblacion","name":"Calubian RHU","admin2":"PH083713000","admin3":"PH083713050","type":"health_facility","X":124.426095,"Y":11.445866,"admin2_X":124.41322,"admin2_Y":11.43679},"geometry":{"type":"Point","coordinates":[124.43510055542,11.43274886541]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Capoocan","barangay":"Poblacion Zone I","name":"Capoocan RHU","admin2":"PH083714000","admin3":"PH083714015","type":"health_facility","X":124.636877,"Y":11.279129,"admin2_X":124.604212,"admin2_Y":11.250074},"geometry":{"type":"Point","coordinates":[124.64152336121,11.293104783272]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Carigara","barangay":"Barugohay Central","name":"Carigara District Hospital","admin2":"PH083715000","admin3":"PH083715003","type":"hospital_doh","X":124.70622,"Y":11.290697,"admin2_X":124.698305,"admin2_Y":11.240122},"geometry":{"type":"Point","coordinates":[124.70469474792,11.294367313313]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Carigara","barangay":"Baybay","name":"Carigara RHU","admin2":"PH083715000","admin3":"PH083715006","type":"health_facility","X":124.689925,"Y":11.301481,"admin2_X":124.698305,"admin2_Y":11.240122},"geometry":{"type":"Point","coordinates":[124.68976020813,11.298196953782]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Dagami","barangay":"San Antonio Poblacion","name":"Dagami RHU","admin2":"PH083717000","admin3":"PH083717043","type":"health_facility","X":124.905084,"Y":11.067734,"admin2_X":124.858595,"admin2_Y":11.059483},"geometry":{"type":"Point","coordinates":[124.90508350325,11.0677341337]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Dulag","barangay":"Buntay","name":"Dulag RHU","admin2":"PH083718000","admin3":"PH083718023","type":"health_facility","X":125.031015,"Y":10.957196,"admin2_X":125.00694,"admin2_Y":10.96574},"geometry":{"type":"Point","coordinates":[125.031015,10.957195777754]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Isabel","barangay":"Santo Nino","name":"Isabel RHU","admin2":"PH083722000","admin3":"PH083722021","type":"health_facility","X":124.440445,"Y":10.925173,"admin2_X":124.459695,"admin2_Y":10.9403},"geometry":{"type":"Point","coordinates":[124.440445,10.925172804574]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Jaro","barangay":"District I","name":"Jaro RHU","admin2":"PH083723000","admin3":"PH083723027","type":"health_facility","X":124.779352,"Y":11.188113,"admin2_X":124.765552,"admin2_Y":11.162003},"geometry":{"type":"Point","coordinates":[124.779352,11.188113]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Javier","barangay":"Poblacion Zone 2","name":"Javier RHU","admin2":"PH083724000","admin3":"PH083724023","type":"health_facility","X":124.935247,"Y":10.791448,"admin2_X":124.924701,"admin2_Y":10.763958},"geometry":{"type":"Point","coordinates":[124.9352472822,10.791448357559]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Julita","barangay":"Poblacion District IV","name":"Julita RHU","admin2":"PH083725000","admin3":"PH083725021","type":"health_facility","X":124.964789,"Y":10.969114,"admin2_X":124.961304,"admin2_Y":10.981304},"geometry":{"type":"Point","coordinates":[124.96165037155,10.973091726969]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Kananga","barangay":"Poblacion","name":"Kananga RHU","admin2":"PH083726000","admin3":"PH083726015","type":"health_facility","X":124.55969,"Y":11.178476,"admin2_X":124.57117,"admin2_Y":11.163167},"geometry":{"type":"Point","coordinates":[124.55863237381,11.183664471865]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Kananga","barangay":"Poblacion","name":"Kananga Com Hospital","admin2":"PH083726000","admin3":"PH083726015","type":"hospital_doh","X":124.55969,"Y":11.178476,"admin2_X":124.57117,"admin2_Y":11.163167},"geometry":{"type":"Point","coordinates":[124.56281661987,11.184211776588]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"La Paz","barangay":"Poblacion District 1","name":"La Paz Rural Health Unit","admin2":"PH083728000","admin3":"PH083728025","type":"health_facility","X":124.963048,"Y":10.895328,"admin2_X":124.89513,"admin2_Y":10.886507},"geometry":{"type":"Point","coordinates":[124.95798110962,10.891552317463]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Leyte","barangay":"Poblacion","name":"Leyte RHU","admin2":"PH083729000","admin3":"PH083729021","type":"health_facility","X":124.491955,"Y":11.382541,"admin2_X":124.493955,"admin2_Y":11.33789},"geometry":{"type":"Point","coordinates":[124.48758602142,11.37032981052]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Macarthur","barangay":"Poblacion District 1","name":"McArthur RHU","admin2":"PH083730000","admin3":"PH083730017","type":"health_facility","X":125.001235,"Y":10.83716,"admin2_X":124.879943,"admin2_Y":10.82657},"geometry":{"type":"Point","coordinates":[124.99641180038,10.835202750757]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Matag-ob","barangay":"San Guillermo","name":"Matag-ob RHU","admin2":"PH083733000","admin3":"PH083733021","type":"health_facility","X":124.461905,"Y":11.135342,"admin2_X":124.468261,"admin2_Y":11.124023},"geometry":{"type":"Point","coordinates":[124.47123527527,11.147076914695]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Mayorga","barangay":"Poblacion Zone 1","name":"Mayorga RHU","admin2":"PH083735000","admin3":"PH083735009","type":"health_facility","X":125.012811,"Y":10.905015,"admin2_X":124.989545,"admin2_Y":10.884516},"geometry":{"type":"Point","coordinates":[125.0057888031,10.903952428651]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Merida","barangay":"Poblacion","name":"Merida RHU","admin2":"PH083736000","admin3":"PH083736017","type":"health_facility","X":124.53141,"Y":10.917157,"admin2_X":124.50848,"admin2_Y":10.94969},"geometry":{"type":"Point","coordinates":[124.53638076782,10.910347186272]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Ormoc City","barangay":"Cogon Combado","name":"Ormoc District Hospital","admin2":"PH083738000","admin3":"PH083738016","type":"hospital_doh","X":124.602785,"Y":11.022266,"admin2_X":124.635704,"admin2_Y":11.055246},"geometry":{"type":"Point","coordinates":[124.60311412811,11.022670140049]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Ormoc City","barangay":"Cogon Combado","name":"Cogon District Hospital","admin2":"PH083738000","admin3":"PH083738016","type":"health_facility","X":124.602785,"Y":11.022266,"admin2_X":124.635704,"admin2_Y":11.055246},"geometry":{"type":"Point","coordinates":[124.60590362549,11.018942175596]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Ormoc City","barangay":"Curva","name":"Curva DHC","admin2":"PH083738000","admin3":"PH083738018","type":"health_facility","X":124.52358,"Y":11.023893,"admin2_X":124.635704,"admin2_Y":11.055246},"geometry":{"type":"Point","coordinates":[124.52041625977,11.029662578701]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Ormoc City","barangay":"Linao","name":"Linao DHC","admin2":"PH083738000","admin3":"PH083738060","type":"health_facility","X":124.590389,"Y":11.01679,"admin2_X":124.635704,"admin2_Y":11.055246},"geometry":{"type":"Point","coordinates":[124.59107637405,11.015888158221]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Ormoc City","barangay":"Valencia","name":"Valencia HC","admin2":"PH083738000","admin3":"PH083738090","type":"health_facility","X":124.569955,"Y":11.103567,"admin2_X":124.635704,"admin2_Y":11.055246},"geometry":{"type":"Point","coordinates":[124.57805156708,11.107621191163]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Ormoc City","barangay":null,"name":"Ormoc City RHU","admin2":"PH083738000","admin3":"#N/A","type":"health_facility","X":124.635704,"Y":11.055246,"admin2_X":124.635704,"admin2_Y":11.055246},"geometry":{"type":"Point","coordinates":[124.63570442389,11.055246010255]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Ormoc City","barangay":null,"name":"Dona Feliza Mejia DHC","admin2":"PH083738000","admin3":"#N/A","type":"health_facility","X":124.635704,"Y":11.055246,"admin2_X":124.635704,"admin2_Y":11.055246},"geometry":{"type":"Point","coordinates":[124.63570442389,11.055246010255]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Ormoc City","barangay":null,"name":"San Pablo DHC","admin2":"PH083738000","admin3":"#N/A","type":"health_facility","X":124.635704,"Y":11.055246,"admin2_X":124.635704,"admin2_Y":11.055246},"geometry":{"type":"Point","coordinates":[124.63570442389,11.055246010255]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Ormoc City","barangay":null,"name":"Ipil district RHU","admin2":"PH083738000","admin3":"#N/A","type":"health_facility","X":124.635704,"Y":11.055246,"admin2_X":124.635704,"admin2_Y":11.055246},"geometry":{"type":"Point","coordinates":[124.63570442389,11.055246010255]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Palo","barangay":"Salvacion","name":"Schistosomiasis Control and Research Hospital","admin2":"PH083739000","admin3":"PH083739025","type":"hospital_doh","X":124.999202,"Y":11.157222,"admin2_X":124.964415,"admin2_Y":11.141815},"geometry":{"type":"Point","coordinates":[124.99490976334,11.155497934661]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Palo","barangay":"Sta. Cruz","name":"Palo RHU","admin2":"PH083739000","admin3":"#N/A","type":"health_facility","X":124.964415,"Y":11.141815,"admin2_X":124.964415,"admin2_Y":11.141815},"geometry":{"type":"Point","coordinates":[124.964415,11.141815146305]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Palompon","barangay":"Brgy. Ipil 3","name":"Palompon RHU","admin2":"PH083740000","admin3":"#N/A","type":"health_facility","X":124.42414,"Y":11.039562,"admin2_X":124.42414,"admin2_Y":11.039562},"geometry":{"type":"Point","coordinates":[124.38883781433,11.053292419996]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Palompon","barangay":"","name":"Palompon General Hospital","admin2":"PH083740000","admin3":"#N/A","type":"hospital_doh","X":124.42414,"Y":11.039562,"admin2_X":124.42414,"admin2_Y":11.039562},"geometry":{"type":"Point","coordinates":[124.39068317413331,11.045689799788846]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Pastrana","barangay":"District 4","name":"Pastrana Rural Health Unit","admin2":"PH083741000","admin3":"PH083741025","type":"health_facility","X":124.886979,"Y":11.140608,"admin2_X":124.895845,"admin2_Y":11.125161},"geometry":{"type":"Point","coordinates":[124.88604426384,11.137318752787]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"San Isidro","barangay":"Poblacion","name":"San Isidro RHU","admin2":"PH083742000","admin3":"#N/A","type":"health_facility","X":124.391028,"Y":11.398978,"admin2_X":124.391028,"admin2_Y":11.398978},"geometry":{"type":"Point","coordinates":[124.35304641724,11.406668097793]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"San Miguel","barangay":"Libtong","name":"San Miguel RHU","admin2":"PH083743000","admin3":"PH083743009","type":"health_facility","X":124.827273,"Y":11.28943,"admin2_X":124.84009,"admin2_Y":11.315929},"geometry":{"type":"Point","coordinates":[124.83180999756,11.292094755238]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Santa Fe","barangay":"Zone 2","name":"Sta. Fe RHU","admin2":"PH083744000","admin3":"PH083744010","type":"health_facility","X":124.922333,"Y":11.184247,"admin2_X":124.93941,"admin2_Y":11.195627},"geometry":{"type":"Point","coordinates":[124.91858482361,11.186148384998]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Tabango","barangay":"Poblacion","name":"Tabango RHU","admin2":"PH083745000","admin3":"PH083745011","type":"health_facility","X":124.3502,"Y":11.314917,"admin2_X":124.410455,"admin2_Y":11.313683},"geometry":{"type":"Point","coordinates":[124.3723154068,11.307307925788]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Tabango","barangay":"Poblacion","name":"Tabango Hospital","admin2":"PH083745000","admin3":"PH083745011","type":"hospital_doh","X":124.3502,"Y":11.314917,"admin2_X":124.410455,"admin2_Y":11.313683},"geometry":{"type":"Point","coordinates":[124.37688589096,11.309832855227]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Tabontabon","barangay":"Bonifacio","name":"Tabontabon RHU","admin2":"PH083746000","admin3":"#N/A","type":"health_facility","X":124.947086,"Y":11.04415,"admin2_X":124.947086,"admin2_Y":11.04415},"geometry":{"type":"Point","coordinates":[124.96287345886,11.042636060329]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Tacloban City","barangay":"Barangay 25","name":"Tacloban  City HC","admin2":"PH083747000","admin3":"PH083747047","type":"health_facility","X":124.996025,"Y":11.24786,"admin2_X":124.930415,"admin2_Y":11.298227},"geometry":{"type":"Point","coordinates":[124.996025,11.247860231368]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Tacloban City","barangay":"Nula-tula","name":"Nula Tula RHU","admin2":"PH083747000","admin3":"PH083747008","type":"health_facility","X":124.976536,"Y":11.243952,"admin2_X":124.930415,"admin2_Y":11.298227},"geometry":{"type":"Point","coordinates":[124.97653630449,11.243952161509]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Tacloban City","barangay":null,"name":"Anibong RHU","admin2":"PH083747000","admin3":"#N/A","type":"health_facility","X":124.930415,"Y":11.298227,"admin2_X":124.930415,"admin2_Y":11.298227},"geometry":{"type":"Point","coordinates":[124.96227264404,11.247944643752]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Tacloban City","barangay":null,"name":"Diit RHU","admin2":"PH083747000","admin3":"#N/A","type":"health_facility","X":124.930415,"Y":11.298227,"admin2_X":124.930415,"admin2_Y":11.298227},"geometry":{"type":"Point","coordinates":[124.97222900391,11.257709599085]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Tacloban City","barangay":null,"name":"Sagkahan RHU","admin2":"PH083747000","admin3":"#N/A","type":"health_facility","X":124.930415,"Y":11.298227,"admin2_X":124.930415,"admin2_Y":11.298227},"geometry":{"type":"Point","coordinates":[124.97051239014,11.247944643752]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Tacloban City","barangay":null,"name":"San Jose RHU","admin2":"PH083747000","admin3":"#N/A","type":"health_facility","X":124.930415,"Y":11.298227,"admin2_X":124.930415,"admin2_Y":11.298227},"geometry":{"type":"Point","coordinates":[124.98115539551,11.252322078469]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Tacloban City","barangay":null,"name":"Suhi RHU","admin2":"PH083747000","admin3":"#N/A","type":"health_facility","X":124.930415,"Y":11.298227,"admin2_X":124.930415,"admin2_Y":11.298227},"geometry":{"type":"Point","coordinates":[124.98647689819,11.250806820134]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Tacloban City","barangay":null,"name":"V & G RHU","admin2":"PH083747000","admin3":"#N/A","type":"health_facility","X":124.930415,"Y":11.298227,"admin2_X":124.930415,"admin2_Y":11.298227},"geometry":{"type":"Point","coordinates":[124.97858047485,11.233970080279]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Tanauan","barangay":"Buntay","name":"Tanauan Rural Health","admin2":"PH083748000","admin3":"PH083748040","type":"health_facility","X":125.01907,"Y":11.11377,"admin2_X":124.990514,"admin2_Y":11.084258},"geometry":{"type":"Point","coordinates":[125.01696825027,11.110474225454]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Tolosa","barangay":"Imelda","name":"Tolasa RHU","admin2":"PH083749000","admin3":"PH083749015","type":"health_facility","X":125.03646,"Y":11.068908,"admin2_X":125.020285,"admin2_Y":11.03688},"geometry":{"type":"Point","coordinates":[125.03754615784,11.063485097412]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Tunga","barangay":"San Antonio","name":"Tunga RHU","admin2":"PH083750000","admin3":"PH083750004","type":"health_facility","X":124.743225,"Y":11.235041,"admin2_X":124.764785,"admin2_Y":11.251498},"geometry":{"type":"Point","coordinates":[124.743225,11.235041140794]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Villaba","barangay":"Poblacion Sur","name":"Villaba RHU","admin2":"PH083751000","admin3":"PH083751023","type":"health_facility","X":124.391022,"Y":11.208953,"admin2_X":124.442095,"admin2_Y":11.193957},"geometry":{"type":"Point","coordinates":[124.39244270325,11.209428772303]}},{"type":"Feature","properties":{"province":"Leyte","municipali":"Villaba","barangay":"Suba","name":"Villaba Com Hospital","admin2":"PH083751000","admin3":"PH083751035","type":"hospital_doh","X":124.401375,"Y":11.221492,"admin2_X":124.442095,"admin2_Y":11.193957},"geometry":{"type":"Point","coordinates":[124.39407348633,11.214901285763]}},{"type":"Feature","properties":{"province":"Samar","municipali":"Basey","barangay":"Loyo","name":"Basey District Hospital","admin2":"PH086002000","admin3":"PH086002037","type":"hospital_doh","X":125.06544,"Y":11.281881,"admin2_X":125.152198,"admin2_Y":11.39398},"geometry":{"type":"Point","coordinates":[125.06512999535,11.279258672735]}},{"type":"Feature","properties":{"province":"Samar","municipali":"Basey","barangay":"Mercado","name":"Basey RHU","admin2":"PH086002000","admin3":"PH086002038","type":"health_facility","X":125.076483,"Y":11.289162,"admin2_X":125.152198,"admin2_Y":11.39398},"geometry":{"type":"Point","coordinates":[125.07648307415,11.289161647504]}},{"type":"Feature","properties":{"province":"Samar","municipali":"Hinabangan","barangay":"Rawis","name":"Hinabangan RHU","admin2":"PH086008000","admin3":"PH086008014","type":"health_facility","X":125.056205,"Y":11.697901,"admin2_X":125.158075,"admin2_Y":11.715075},"geometry":{"type":"Point","coordinates":[125.056205,11.697901209607]}},{"type":"Feature","properties":{"province":"Samar","municipali":"Jiabong","barangay":"Masagana","name":"Jiabong RHU","admin2":"PH086009000","admin3":"#N/A","type":"health_facility","X":124.945853,"Y":11.810459,"admin2_X":124.945853,"admin2_Y":11.810459},"geometry":{"type":"Point","coordinates":[124.9458525,11.810458613158]}},{"type":"Feature","properties":{"province":"Samar","municipali":"Marabut","barangay":"Amantillo","name":"Marabut RHU","admin2":"PH086010000","admin3":"PH086010015","type":"health_facility","X":125.22104,"Y":11.130859,"admin2_X":125.218465,"admin2_Y":11.205867},"geometry":{"type":"Point","coordinates":[125.21379947662,11.106873712623]}},{"type":"Feature","properties":{"province":"Samar","municipali":"Motiong","barangay":"Poblacion I-A","name":"Motiong Rural Health Unit","admin2":"PH086012000","admin3":"PH086012002","type":"health_facility","X":124.977938,"Y":11.788514,"admin2_X":124.991695,"admin2_Y":11.807602},"geometry":{"type":"Point","coordinates":[124.97793837216,11.788513817941]}},{"type":"Feature","properties":{"province":"Samar","municipali":"Paranas","barangay":"Poblacion 4","name":"Paranas Rural Health Unit","admin2":"PH086022000","admin3":"PH086022031","type":"health_facility","X":125.02695,"Y":11.791035,"admin2_X":125.13891,"admin2_Y":11.882263},"geometry":{"type":"Point","coordinates":[125.02695,11.791035354301]}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Eastern Samar",
+        "municipali": "Balangiga",
+        "barangay": "Barangay Poblacion III",
+        "name": "Balangiga District Hospital",
+        "admin2": "PH082602000",
+        "admin3": "PH082602007",
+        "type": "hospital_doh",
+        "X": 125.394927,
+        "Y": 11.118248,
+        "admin2_X": 125.36389,
+        "admin2_Y": 11.201657
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.39137244225,
+          11.107363258644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Palo",
+        "barangay": "Candahug",
+        "name": "Leyte Provincial Hospital",
+        "admin2": "PH083739000",
+        "admin3": "PH083739009",
+        "type": "hospital_doh",
+        "X": 125.00902,
+        "Y": 11.175379,
+        "admin2_X": 124.964415,
+        "admin2_Y": 11.141815
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.00572443008,
+          11.180948983149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Eastern Samar",
+        "municipali": "BALANGKAYAN",
+        "barangay": null,
+        "name": "Balankayan RHU",
+        "admin2": "PH082603000",
+        "admin3": "#N/A",
+        "type": "health_facility",
+        "X": 125.319153,
+        "Y": 11.372971,
+        "admin2_X": 125.319153,
+        "admin2_Y": 11.372971
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.51068782806,
+          11.473043135652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Eastern Samar",
+        "municipali": "Borongan City",
+        "barangay": "Songco",
+        "name": "Eastern Samar Provincial Hospital",
+        "admin2": "PH082604000",
+        "admin3": "PH082604055",
+        "type": "hospital_doh",
+        "X": 125.427348,
+        "Y": 11.61742,
+        "admin2_X": 125.34943,
+        "admin2_Y": 11.594164
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.43130517006,
+          11.611789206783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Eastern Samar",
+        "municipali": "General Macarthur",
+        "barangay": null,
+        "name": "Gen. McArthur Health Unit",
+        "admin2": "PH082607000",
+        "admin3": "#N/A",
+        "type": "health_facility",
+        "X": 125.498735,
+        "Y": 11.263891,
+        "admin2_X": 125.498735,
+        "admin2_Y": 11.263891
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.538636446,
+          11.246439885205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Eastern Samar",
+        "municipali": "Giporlos",
+        "barangay": null,
+        "name": "Giporlos RHU",
+        "admin2": "PH082608000",
+        "admin3": "#N/A",
+        "type": "health_facility",
+        "X": 125.443403,
+        "Y": 11.129379,
+        "admin2_X": 125.443403,
+        "admin2_Y": 11.129379
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.44876098633,
+          11.12273879672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Eastern Samar",
+        "municipali": "Guiuan",
+        "barangay": "Hillsview",
+        "name": "Felipe Abrigo Memo Hospital",
+        "admin2": "PH082609000",
+        "admin3": "#N/A",
+        "type": "hospital_doh",
+        "X": 125.779935,
+        "Y": 10.715523,
+        "admin2_X": 125.779935,
+        "admin2_Y": 10.715523
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.72934150696,
+          11.035601808603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Eastern Samar",
+        "municipali": "GUIUAN",
+        "barangay": null,
+        "name": "Guiuan RHU I",
+        "admin2": "PH082609000",
+        "admin3": "#N/A",
+        "type": "health_facility",
+        "X": 125.779935,
+        "Y": 10.715523,
+        "admin2_X": 125.779935,
+        "admin2_Y": 10.715523
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.73305368423,
+          11.030505029964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Eastern Samar",
+        "municipali": "GUIUAN",
+        "barangay": null,
+        "name": "Sulangan (Guiuan) RHU",
+        "admin2": "PH082609000",
+        "admin3": "#N/A",
+        "type": "health_facility",
+        "X": 125.779935,
+        "Y": 10.715523,
+        "admin2_X": 125.779935,
+        "admin2_Y": 10.715523
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.82690954208,
+          10.936788627015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Eastern Samar",
+        "municipali": "HERNANI",
+        "barangay": null,
+        "name": "Hernani RHU",
+        "admin2": "PH082610000",
+        "admin3": "#N/A",
+        "type": "health_facility",
+        "X": 125.592363,
+        "Y": 11.326681,
+        "admin2_X": 125.592363,
+        "admin2_Y": 11.326681
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.61810493469,
+          11.326223314161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Eastern Samar",
+        "municipali": "Lawaan",
+        "barangay": "Barangay Poblacion 1",
+        "name": "Lawaan RHU",
+        "admin2": "PH082612000",
+        "admin3": "PH082612010",
+        "type": "health_facility",
+        "X": 125.29498,
+        "Y": 11.147487,
+        "admin2_X": 125.286764,
+        "admin2_Y": 11.202071
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.29498,
+          11.1474875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Eastern Samar",
+        "municipali": "Llorente",
+        "barangay": null,
+        "name": "Llorente Rural Health Unit",
+        "admin2": "PH082613000",
+        "admin3": "#N/A",
+        "type": "health_facility",
+        "X": 125.447342,
+        "Y": 11.342563,
+        "admin2_X": 125.447342,
+        "admin2_Y": 11.342563
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5455994606,
+          11.409297316085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Eastern Samar",
+        "municipali": "Mercedes",
+        "barangay": "Barangay 1 Poblacion",
+        "name": "Mercedes RHU",
+        "admin2": "PH082616000",
+        "admin3": "PH082616008",
+        "type": "health_facility",
+        "X": 125.71714,
+        "Y": 11.104235,
+        "admin2_X": 125.70491,
+        "admin2_Y": 11.092883
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.71243286133,
+          11.096208775145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Eastern Samar",
+        "municipali": "Quinapondan",
+        "barangay": null,
+        "name": "Quinapondan Com Hospital",
+        "admin2": "PH082618000",
+        "admin3": "#N/A",
+        "type": "hospital_doh",
+        "X": 125.476423,
+        "Y": 11.189628,
+        "admin2_X": 125.476423,
+        "admin2_Y": 11.189628
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.51648139954,
+          11.157603151525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Eastern Samar",
+        "municipali": "QUINAPONDAN",
+        "barangay": null,
+        "name": "Quinapondan RHU",
+        "admin2": "PH082618000",
+        "admin3": "#N/A",
+        "type": "health_facility",
+        "X": 125.476423,
+        "Y": 11.189628,
+        "admin2_X": 125.476423,
+        "admin2_Y": 11.189628
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.52034378052,
+          11.159708353133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Eastern Samar",
+        "municipali": "Salcedo",
+        "barangay": null,
+        "name": "Salcedo RHU",
+        "admin2": "PH082619000",
+        "admin3": "#N/A",
+        "type": "health_facility",
+        "X": 125.59432,
+        "Y": 11.14742,
+        "admin2_X": 125.59432,
+        "admin2_Y": 11.14742
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.66402435303,
+          11.150108509988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "ABUYOG",
+        "barangay": "Balocawehay",
+        "name": "Abuyog RHU",
+        "admin2": "PH083701000",
+        "admin3": "PH083701008",
+        "type": "health_facility",
+        "X": 124.98003,
+        "Y": 10.731443,
+        "admin2_X": 125.09164,
+        "admin2_Y": 10.634046
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.98110175133,
+          10.741793812451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "ABUYOG",
+        "barangay": "Bunga",
+        "name": "Abuyog District Hospital",
+        "admin2": "PH083701000",
+        "admin3": "PH083701014",
+        "type": "hospital_doh",
+        "X": 125.006723,
+        "Y": 10.763418,
+        "admin2_X": 125.09164,
+        "admin2_Y": 10.634046
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.00321388245,
+          10.759385954694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Alangalang",
+        "barangay": "San Roque",
+        "name": "Alang-alang RHU",
+        "admin2": "PH083702000",
+        "admin3": "PH083702054",
+        "type": "health_facility",
+        "X": 124.846272,
+        "Y": 11.212068,
+        "admin2_X": 124.865405,
+        "admin2_Y": 11.210308
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.84519958496,
+          11.211407308358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Albuera",
+        "barangay": "Poblacion",
+        "name": "Albuera RHU",
+        "admin2": "PH083703000",
+        "admin3": "PH083703010",
+        "type": "health_facility",
+        "X": 124.740915,
+        "Y": 10.930413,
+        "admin2_X": 124.745502,
+        "admin2_Y": 10.925819
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.69654083252,
+          10.918943546447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Barugo",
+        "barangay": "Poblacion Dist. III",
+        "name": "Barugo RHU",
+        "admin2": "PH083706000",
+        "admin3": "PH083706025",
+        "type": "health_facility",
+        "X": 124.73551,
+        "Y": 11.327247,
+        "admin2_X": 124.769026,
+        "admin2_Y": 11.307844
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.73717093468,
+          11.324403367293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Baybay City",
+        "barangay": "Poblacion Zone 2",
+        "name": "Western Leyte Provincial Hospital",
+        "admin2": "PH083708000",
+        "admin3": "PH083708058",
+        "type": "hospital_doh",
+        "X": 124.808469,
+        "Y": 10.682029,
+        "admin2_X": 124.887,
+        "admin2_Y": 10.641419
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.79773521423,
+          10.680576987617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Burauen",
+        "barangay": "Poblacion District I",
+        "name": "Burauen District Hospital",
+        "admin2": "PH083710000",
+        "admin3": "PH083710018",
+        "type": "hospital_doh",
+        "X": 124.893086,
+        "Y": 10.98366,
+        "admin2_X": 124.898253,
+        "admin2_Y": 10.977365
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.89308621304,
+          10.98365956154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Burauen",
+        "barangay": "Poblacion District VII",
+        "name": "Burauen RHU",
+        "admin2": "PH083710000",
+        "admin3": "PH083710024",
+        "type": "health_facility",
+        "X": 124.888453,
+        "Y": 10.972206,
+        "admin2_X": 124.898253,
+        "admin2_Y": 10.977365
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.8884525,
+          10.972206445907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Calubian",
+        "barangay": "Cristina",
+        "name": "North western Leyte District Hospital",
+        "admin2": "PH083713000",
+        "admin3": "PH083713014",
+        "type": "hospital_doh",
+        "X": 124.418555,
+        "Y": 11.450847,
+        "admin2_X": 124.41322,
+        "admin2_Y": 11.43679
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.42823410034,
+          11.441666254796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Calubian",
+        "barangay": "Poblacion",
+        "name": "Calubian RHU",
+        "admin2": "PH083713000",
+        "admin3": "PH083713050",
+        "type": "health_facility",
+        "X": 124.426095,
+        "Y": 11.445866,
+        "admin2_X": 124.41322,
+        "admin2_Y": 11.43679
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.43510055542,
+          11.43274886541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Capoocan",
+        "barangay": "Poblacion Zone I",
+        "name": "Capoocan RHU",
+        "admin2": "PH083714000",
+        "admin3": "PH083714015",
+        "type": "health_facility",
+        "X": 124.636877,
+        "Y": 11.279129,
+        "admin2_X": 124.604212,
+        "admin2_Y": 11.250074
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.64152336121,
+          11.293104783272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Carigara",
+        "barangay": "Barugohay Central",
+        "name": "Carigara District Hospital",
+        "admin2": "PH083715000",
+        "admin3": "PH083715003",
+        "type": "hospital_doh",
+        "X": 124.70622,
+        "Y": 11.290697,
+        "admin2_X": 124.698305,
+        "admin2_Y": 11.240122
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.70469474792,
+          11.294367313313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Carigara",
+        "barangay": "Baybay",
+        "name": "Carigara RHU",
+        "admin2": "PH083715000",
+        "admin3": "PH083715006",
+        "type": "health_facility",
+        "X": 124.689925,
+        "Y": 11.301481,
+        "admin2_X": 124.698305,
+        "admin2_Y": 11.240122
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.68976020813,
+          11.298196953782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Dagami",
+        "barangay": "San Antonio Poblacion",
+        "name": "Dagami RHU",
+        "admin2": "PH083717000",
+        "admin3": "PH083717043",
+        "type": "health_facility",
+        "X": 124.905084,
+        "Y": 11.067734,
+        "admin2_X": 124.858595,
+        "admin2_Y": 11.059483
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.90508350325,
+          11.0677341337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Dulag",
+        "barangay": "Buntay",
+        "name": "Dulag RHU",
+        "admin2": "PH083718000",
+        "admin3": "PH083718023",
+        "type": "health_facility",
+        "X": 125.031015,
+        "Y": 10.957196,
+        "admin2_X": 125.00694,
+        "admin2_Y": 10.96574
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.031015,
+          10.957195777754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Isabel",
+        "barangay": "Santo Nino",
+        "name": "Isabel RHU",
+        "admin2": "PH083722000",
+        "admin3": "PH083722021",
+        "type": "health_facility",
+        "X": 124.440445,
+        "Y": 10.925173,
+        "admin2_X": 124.459695,
+        "admin2_Y": 10.9403
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.440445,
+          10.925172804574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Jaro",
+        "barangay": "District I",
+        "name": "Jaro RHU",
+        "admin2": "PH083723000",
+        "admin3": "PH083723027",
+        "type": "health_facility",
+        "X": 124.779352,
+        "Y": 11.188113,
+        "admin2_X": 124.765552,
+        "admin2_Y": 11.162003
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.779352,
+          11.188113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Javier",
+        "barangay": "Poblacion Zone 2",
+        "name": "Javier RHU",
+        "admin2": "PH083724000",
+        "admin3": "PH083724023",
+        "type": "health_facility",
+        "X": 124.935247,
+        "Y": 10.791448,
+        "admin2_X": 124.924701,
+        "admin2_Y": 10.763958
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.9352472822,
+          10.791448357559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Julita",
+        "barangay": "Poblacion District IV",
+        "name": "Julita RHU",
+        "admin2": "PH083725000",
+        "admin3": "PH083725021",
+        "type": "health_facility",
+        "X": 124.964789,
+        "Y": 10.969114,
+        "admin2_X": 124.961304,
+        "admin2_Y": 10.981304
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.96165037155,
+          10.973091726969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Kananga",
+        "barangay": "Poblacion",
+        "name": "Kananga RHU",
+        "admin2": "PH083726000",
+        "admin3": "PH083726015",
+        "type": "health_facility",
+        "X": 124.55969,
+        "Y": 11.178476,
+        "admin2_X": 124.57117,
+        "admin2_Y": 11.163167
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.55863237381,
+          11.183664471865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Kananga",
+        "barangay": "Poblacion",
+        "name": "Kananga Com Hospital",
+        "admin2": "PH083726000",
+        "admin3": "PH083726015",
+        "type": "hospital_doh",
+        "X": 124.55969,
+        "Y": 11.178476,
+        "admin2_X": 124.57117,
+        "admin2_Y": 11.163167
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.56281661987,
+          11.184211776588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "La Paz",
+        "barangay": "Poblacion District 1",
+        "name": "La Paz Rural Health Unit",
+        "admin2": "PH083728000",
+        "admin3": "PH083728025",
+        "type": "health_facility",
+        "X": 124.963048,
+        "Y": 10.895328,
+        "admin2_X": 124.89513,
+        "admin2_Y": 10.886507
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.95798110962,
+          10.891552317463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Leyte",
+        "barangay": "Poblacion",
+        "name": "Leyte RHU",
+        "admin2": "PH083729000",
+        "admin3": "PH083729021",
+        "type": "health_facility",
+        "X": 124.491955,
+        "Y": 11.382541,
+        "admin2_X": 124.493955,
+        "admin2_Y": 11.33789
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.48758602142,
+          11.37032981052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Macarthur",
+        "barangay": "Poblacion District 1",
+        "name": "McArthur RHU",
+        "admin2": "PH083730000",
+        "admin3": "PH083730017",
+        "type": "health_facility",
+        "X": 125.001235,
+        "Y": 10.83716,
+        "admin2_X": 124.879943,
+        "admin2_Y": 10.82657
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.99641180038,
+          10.835202750757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Matag-ob",
+        "barangay": "San Guillermo",
+        "name": "Matag-ob RHU",
+        "admin2": "PH083733000",
+        "admin3": "PH083733021",
+        "type": "health_facility",
+        "X": 124.461905,
+        "Y": 11.135342,
+        "admin2_X": 124.468261,
+        "admin2_Y": 11.124023
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.47123527527,
+          11.147076914695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Mayorga",
+        "barangay": "Poblacion Zone 1",
+        "name": "Mayorga RHU",
+        "admin2": "PH083735000",
+        "admin3": "PH083735009",
+        "type": "health_facility",
+        "X": 125.012811,
+        "Y": 10.905015,
+        "admin2_X": 124.989545,
+        "admin2_Y": 10.884516
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.0057888031,
+          10.903952428651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Merida",
+        "barangay": "Poblacion",
+        "name": "Merida RHU",
+        "admin2": "PH083736000",
+        "admin3": "PH083736017",
+        "type": "health_facility",
+        "X": 124.53141,
+        "Y": 10.917157,
+        "admin2_X": 124.50848,
+        "admin2_Y": 10.94969
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.53638076782,
+          10.910347186272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Ormoc City",
+        "barangay": "Cogon Combado",
+        "name": "Ormoc District Hospital",
+        "admin2": "PH083738000",
+        "admin3": "PH083738016",
+        "type": "hospital_doh",
+        "X": 124.602785,
+        "Y": 11.022266,
+        "admin2_X": 124.635704,
+        "admin2_Y": 11.055246
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.60311412811,
+          11.022670140049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Ormoc City",
+        "barangay": "Cogon Combado",
+        "name": "Cogon District Hospital",
+        "admin2": "PH083738000",
+        "admin3": "PH083738016",
+        "type": "health_facility",
+        "X": 124.602785,
+        "Y": 11.022266,
+        "admin2_X": 124.635704,
+        "admin2_Y": 11.055246
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.60590362549,
+          11.018942175596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Ormoc City",
+        "barangay": "Curva",
+        "name": "Curva DHC",
+        "admin2": "PH083738000",
+        "admin3": "PH083738018",
+        "type": "health_facility",
+        "X": 124.52358,
+        "Y": 11.023893,
+        "admin2_X": 124.635704,
+        "admin2_Y": 11.055246
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.52041625977,
+          11.029662578701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Ormoc City",
+        "barangay": "Linao",
+        "name": "Linao DHC",
+        "admin2": "PH083738000",
+        "admin3": "PH083738060",
+        "type": "health_facility",
+        "X": 124.590389,
+        "Y": 11.01679,
+        "admin2_X": 124.635704,
+        "admin2_Y": 11.055246
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.59107637405,
+          11.015888158221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Ormoc City",
+        "barangay": "Valencia",
+        "name": "Valencia HC",
+        "admin2": "PH083738000",
+        "admin3": "PH083738090",
+        "type": "health_facility",
+        "X": 124.569955,
+        "Y": 11.103567,
+        "admin2_X": 124.635704,
+        "admin2_Y": 11.055246
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.57805156708,
+          11.107621191163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Ormoc City",
+        "barangay": null,
+        "name": "Ormoc City RHU",
+        "admin2": "PH083738000",
+        "admin3": "#N/A",
+        "type": "health_facility",
+        "X": 124.635704,
+        "Y": 11.055246,
+        "admin2_X": 124.635704,
+        "admin2_Y": 11.055246
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.63570442389,
+          11.055246010255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Ormoc City",
+        "barangay": null,
+        "name": "Dona Feliza Mejia DHC",
+        "admin2": "PH083738000",
+        "admin3": "#N/A",
+        "type": "health_facility",
+        "X": 124.635704,
+        "Y": 11.055246,
+        "admin2_X": 124.635704,
+        "admin2_Y": 11.055246
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.63570442389,
+          11.055246010255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Ormoc City",
+        "barangay": null,
+        "name": "San Pablo DHC",
+        "admin2": "PH083738000",
+        "admin3": "#N/A",
+        "type": "health_facility",
+        "X": 124.635704,
+        "Y": 11.055246,
+        "admin2_X": 124.635704,
+        "admin2_Y": 11.055246
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.63570442389,
+          11.055246010255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Ormoc City",
+        "barangay": null,
+        "name": "Ipil district RHU",
+        "admin2": "PH083738000",
+        "admin3": "#N/A",
+        "type": "health_facility",
+        "X": 124.635704,
+        "Y": 11.055246,
+        "admin2_X": 124.635704,
+        "admin2_Y": 11.055246
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.63570442389,
+          11.055246010255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Palo",
+        "barangay": "Salvacion",
+        "name": "Schistosomiasis Control and Research Hospital",
+        "admin2": "PH083739000",
+        "admin3": "PH083739025",
+        "type": "hospital_doh",
+        "X": 124.999202,
+        "Y": 11.157222,
+        "admin2_X": 124.964415,
+        "admin2_Y": 11.141815
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.99490976334,
+          11.155497934661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Palo",
+        "barangay": "Sta. Cruz",
+        "name": "Palo RHU",
+        "admin2": "PH083739000",
+        "admin3": "#N/A",
+        "type": "health_facility",
+        "X": 124.964415,
+        "Y": 11.141815,
+        "admin2_X": 124.964415,
+        "admin2_Y": 11.141815
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.964415,
+          11.141815146305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Palompon",
+        "barangay": "Brgy. Ipil 3",
+        "name": "Palompon RHU",
+        "admin2": "PH083740000",
+        "admin3": "#N/A",
+        "type": "health_facility",
+        "X": 124.42414,
+        "Y": 11.039562,
+        "admin2_X": 124.42414,
+        "admin2_Y": 11.039562
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.38883781433,
+          11.053292419996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Palompon",
+        "barangay": "",
+        "name": "Palompon General Hospital",
+        "admin2": "PH083740000",
+        "admin3": "#N/A",
+        "type": "hospital_doh",
+        "X": 124.42414,
+        "Y": 11.039562,
+        "admin2_X": 124.42414,
+        "admin2_Y": 11.039562
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.39068317413331,
+          11.045689799788846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Pastrana",
+        "barangay": "District 4",
+        "name": "Pastrana Rural Health Unit",
+        "admin2": "PH083741000",
+        "admin3": "PH083741025",
+        "type": "health_facility",
+        "X": 124.886979,
+        "Y": 11.140608,
+        "admin2_X": 124.895845,
+        "admin2_Y": 11.125161
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.88604426384,
+          11.137318752787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "San Isidro",
+        "barangay": "Poblacion",
+        "name": "San Isidro RHU",
+        "admin2": "PH083742000",
+        "admin3": "#N/A",
+        "type": "health_facility",
+        "X": 124.391028,
+        "Y": 11.398978,
+        "admin2_X": 124.391028,
+        "admin2_Y": 11.398978
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.35304641724,
+          11.406668097793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "San Miguel",
+        "barangay": "Libtong",
+        "name": "San Miguel RHU",
+        "admin2": "PH083743000",
+        "admin3": "PH083743009",
+        "type": "health_facility",
+        "X": 124.827273,
+        "Y": 11.28943,
+        "admin2_X": 124.84009,
+        "admin2_Y": 11.315929
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.83180999756,
+          11.292094755238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Santa Fe",
+        "barangay": "Zone 2",
+        "name": "Sta. Fe RHU",
+        "admin2": "PH083744000",
+        "admin3": "PH083744010",
+        "type": "health_facility",
+        "X": 124.922333,
+        "Y": 11.184247,
+        "admin2_X": 124.93941,
+        "admin2_Y": 11.195627
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.91858482361,
+          11.186148384998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Tabango",
+        "barangay": "Poblacion",
+        "name": "Tabango RHU",
+        "admin2": "PH083745000",
+        "admin3": "PH083745011",
+        "type": "health_facility",
+        "X": 124.3502,
+        "Y": 11.314917,
+        "admin2_X": 124.410455,
+        "admin2_Y": 11.313683
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.3723154068,
+          11.307307925788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Tabango",
+        "barangay": "Poblacion",
+        "name": "Tabango Hospital",
+        "admin2": "PH083745000",
+        "admin3": "PH083745011",
+        "type": "hospital_doh",
+        "X": 124.3502,
+        "Y": 11.314917,
+        "admin2_X": 124.410455,
+        "admin2_Y": 11.313683
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.37688589096,
+          11.309832855227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Tabontabon",
+        "barangay": "Bonifacio",
+        "name": "Tabontabon RHU",
+        "admin2": "PH083746000",
+        "admin3": "#N/A",
+        "type": "health_facility",
+        "X": 124.947086,
+        "Y": 11.04415,
+        "admin2_X": 124.947086,
+        "admin2_Y": 11.04415
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.96287345886,
+          11.042636060329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Tacloban City",
+        "barangay": "Barangay 25",
+        "name": "Tacloban  City HC",
+        "admin2": "PH083747000",
+        "admin3": "PH083747047",
+        "type": "health_facility",
+        "X": 124.996025,
+        "Y": 11.24786,
+        "admin2_X": 124.930415,
+        "admin2_Y": 11.298227
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.00226974487303,
+          11.242051838143059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Tacloban City",
+        "barangay": "Nula-tula",
+        "name": "Nula Tula RHU",
+        "admin2": "PH083747000",
+        "admin3": "PH083747008",
+        "type": "health_facility",
+        "X": 124.976536,
+        "Y": 11.243952,
+        "admin2_X": 124.930415,
+        "admin2_Y": 11.298227
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.9729585647583,
+          11.253458516988575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Tacloban City",
+        "barangay": null,
+        "name": "Anibong RHU",
+        "admin2": "PH083747000",
+        "admin3": "#N/A",
+        "type": "health_facility",
+        "X": 124.930415,
+        "Y": 11.298227,
+        "admin2_X": 124.930415,
+        "admin2_Y": 11.298227
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.99003887176514,
+          11.251417133477885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Tacloban City",
+        "barangay": null,
+        "name": "Diit RHU",
+        "admin2": "PH083747000",
+        "admin3": "#N/A",
+        "type": "health_facility",
+        "X": 124.930415,
+        "Y": 11.298227,
+        "admin2_X": 124.930415,
+        "admin2_Y": 11.298227
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.96456861495972,
+          11.262760308084388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Tacloban City",
+        "barangay": null,
+        "name": "Sagkahan RHU",
+        "admin2": "PH083747000",
+        "admin3": "#N/A",
+        "type": "health_facility",
+        "X": 124.930415,
+        "Y": 11.298227,
+        "admin2_X": 124.930415,
+        "admin2_Y": 11.298227
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.98673439025879,
+          11.229171429404403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Tacloban City",
+        "barangay": null,
+        "name": "San Jose RHU",
+        "admin2": "PH083747000",
+        "admin3": "#N/A",
+        "type": "health_facility",
+        "X": 124.930415,
+        "Y": 11.298227,
+        "admin2_X": 124.930415,
+        "admin2_Y": 11.298227
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.02318024635314,
+          11.206008398783704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Tacloban City",
+        "barangay": null,
+        "name": "Suhi RHU",
+        "admin2": "PH083747000",
+        "admin3": "#N/A",
+        "type": "health_facility",
+        "X": 124.930415,
+        "Y": 11.298227,
+        "admin2_X": 124.930415,
+        "admin2_Y": 11.298227
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.95416164398192,
+          11.317933520257046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Tacloban City",
+        "barangay": null,
+        "name": "V & G RHU",
+        "admin2": "PH083747000",
+        "admin3": "#N/A",
+        "type": "health_facility",
+        "X": 124.930415,
+        "Y": 11.298227,
+        "admin2_X": 124.930415,
+        "admin2_Y": 11.298227
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.99694824218749,
+          11.202482740663715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Tanauan",
+        "barangay": "Buntay",
+        "name": "Tanauan Rural Health",
+        "admin2": "PH083748000",
+        "admin3": "PH083748040",
+        "type": "health_facility",
+        "X": 125.01907,
+        "Y": 11.11377,
+        "admin2_X": 124.990514,
+        "admin2_Y": 11.084258
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.01696825027,
+          11.110474225454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Tolosa",
+        "barangay": "Imelda",
+        "name": "Tolasa RHU",
+        "admin2": "PH083749000",
+        "admin3": "PH083749015",
+        "type": "health_facility",
+        "X": 125.03646,
+        "Y": 11.068908,
+        "admin2_X": 125.020285,
+        "admin2_Y": 11.03688
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.03754615784,
+          11.063485097412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Tunga",
+        "barangay": "San Antonio",
+        "name": "Tunga RHU",
+        "admin2": "PH083750000",
+        "admin3": "PH083750004",
+        "type": "health_facility",
+        "X": 124.743225,
+        "Y": 11.235041,
+        "admin2_X": 124.764785,
+        "admin2_Y": 11.251498
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.743225,
+          11.235041140794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Villaba",
+        "barangay": "Poblacion Sur",
+        "name": "Villaba RHU",
+        "admin2": "PH083751000",
+        "admin3": "PH083751023",
+        "type": "health_facility",
+        "X": 124.391022,
+        "Y": 11.208953,
+        "admin2_X": 124.442095,
+        "admin2_Y": 11.193957
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.39244270325,
+          11.209428772303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Leyte",
+        "municipali": "Villaba",
+        "barangay": "Suba",
+        "name": "Villaba Com Hospital",
+        "admin2": "PH083751000",
+        "admin3": "PH083751035",
+        "type": "hospital_doh",
+        "X": 124.401375,
+        "Y": 11.221492,
+        "admin2_X": 124.442095,
+        "admin2_Y": 11.193957
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.39407348633,
+          11.214901285763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Samar",
+        "municipali": "Basey",
+        "barangay": "Loyo",
+        "name": "Basey District Hospital",
+        "admin2": "PH086002000",
+        "admin3": "PH086002037",
+        "type": "hospital_doh",
+        "X": 125.06544,
+        "Y": 11.281881,
+        "admin2_X": 125.152198,
+        "admin2_Y": 11.39398
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.06512999535,
+          11.279258672735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Samar",
+        "municipali": "Basey",
+        "barangay": "Mercado",
+        "name": "Basey RHU",
+        "admin2": "PH086002000",
+        "admin3": "PH086002038",
+        "type": "health_facility",
+        "X": 125.076483,
+        "Y": 11.289162,
+        "admin2_X": 125.152198,
+        "admin2_Y": 11.39398
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.07648307415,
+          11.289161647504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Samar",
+        "municipali": "Hinabangan",
+        "barangay": "Rawis",
+        "name": "Hinabangan RHU",
+        "admin2": "PH086008000",
+        "admin3": "PH086008014",
+        "type": "health_facility",
+        "X": 125.056205,
+        "Y": 11.697901,
+        "admin2_X": 125.158075,
+        "admin2_Y": 11.715075
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.056205,
+          11.697901209607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Samar",
+        "municipali": "Jiabong",
+        "barangay": "Masagana",
+        "name": "Jiabong RHU",
+        "admin2": "PH086009000",
+        "admin3": "#N/A",
+        "type": "health_facility",
+        "X": 124.945853,
+        "Y": 11.810459,
+        "admin2_X": 124.945853,
+        "admin2_Y": 11.810459
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.9458525,
+          11.810458613158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Samar",
+        "municipali": "Marabut",
+        "barangay": "Amantillo",
+        "name": "Marabut RHU",
+        "admin2": "PH086010000",
+        "admin3": "PH086010015",
+        "type": "health_facility",
+        "X": 125.22104,
+        "Y": 11.130859,
+        "admin2_X": 125.218465,
+        "admin2_Y": 11.205867
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.21379947662,
+          11.106873712623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Samar",
+        "municipali": "Motiong",
+        "barangay": "Poblacion I-A",
+        "name": "Motiong Rural Health Unit",
+        "admin2": "PH086012000",
+        "admin3": "PH086012002",
+        "type": "health_facility",
+        "X": 124.977938,
+        "Y": 11.788514,
+        "admin2_X": 124.991695,
+        "admin2_Y": 11.807602
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.97793837216,
+          11.788513817941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "province": "Samar",
+        "municipali": "Paranas",
+        "barangay": "Poblacion 4",
+        "name": "Paranas Rural Health Unit",
+        "admin2": "PH086022000",
+        "admin3": "PH086022031",
+        "type": "health_facility",
+        "X": 125.02695,
+        "Y": 11.791035,
+        "admin2_X": 125.13891,
+        "admin2_Y": 11.882263
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.02695,
+          11.791035354301
+        ]
+      }
+    }
+  ]
+}
