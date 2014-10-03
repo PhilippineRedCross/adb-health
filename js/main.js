@@ -28,7 +28,7 @@ var extentGroup = new L.FeatureGroup();
 
 var map = new L.Map("map", {
   center: [11.04197, 124.96296], 
-  zoom: 16, 
+  zoom: 8, 
   minZoom: 6,
   layers: [hot]
 });
@@ -219,6 +219,7 @@ function mapData() {
     },
     onEachFeature: onEachSupply
   }).addTo(supplyChain).addTo(extentGroup);
+  $("#loader").remove();
 }
 
 function onEachHealthFacility(feature, layer) {
