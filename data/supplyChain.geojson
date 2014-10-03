@@ -98,6 +98,20 @@
           10.3642582
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "warehouse",
+        "name": "Tacloban Warehouse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.007483959198,
+          11.201535541607106
+        ]
+      }
     }
   ]
 }
