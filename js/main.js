@@ -1,6 +1,9 @@
 var pageHeight = $(window).height();
 $("#loader").css("height", pageHeight * 0.75 );
 
+// comma seperator for thousands
+var formatCommas = d3.format(",");
+
 // setup Leaflet map
 var mapHeight = $(window).height() - 50;
 
@@ -18,13 +21,27 @@ var mapboxStreets = new L.TileLayer(mapboxStreetsUrl, {attribution: mapboxAttrib
   greyscale = new L.TileLayer(greyscaleUrl, {attribution: mapboxAttribution}),
   hot = new L.TileLayer(hotUrl, {attribution: hotAttribution});
 
-var healthFacilitiesData = {};
+var healthFacilitiesData = [];
 var chaptersData = {};
 var supplyChainData = {};
 var healthFacilities = new L.FeatureGroup();
 var chapters = new L.FeatureGroup();
 var supplyChain = new L.FeatureGroup();
 var extentGroup = new L.FeatureGroup();
+
+function returnPrice(item){
+  switch (item){
+    case 'Utrasound machine': return 2443000;
+    case 'Anesthesia machine': return 1915000;
+    case 'Ventilator (portable)': return 1100000;
+    case 'Respirator (portable)': return 650000;
+    case 'ECG machine': return 310000;
+    case 'Generator 6KVA': return 127500;
+    case 'Std Eqpt for RHU': return 2070300;
+    case 'OB/Del kits': return 16323;
+    case 'First Aid kits': return 6130;
+  }
+}
 
 var map = new L.Map("map", {
   center: [11.04197, 124.96296], 
@@ -45,7 +62,7 @@ var overlayMaps = {
     "Supply Chain": supplyChain
 };
 
-var dohMarkerOptions = {
+var hospitalMarkerOptions = {
     radius: 7,
     fillColor: "#662506",
     color: "#000",
@@ -53,7 +70,7 @@ var dohMarkerOptions = {
     opacity: 1,
     fillOpacity: 0.8
 };
-var healthMarkerOptions = {
+var rhuMarkerOptions = {
     radius: 4,
     fillColor: "#cc4c02",
     color: "#000",
@@ -98,8 +115,8 @@ var legend = L.control({position: 'bottomright'});
 
 legend.onAdd = function (map) {
   var div = L.DomUtil.create('div', 'info legend');
-  div.innerHTML = '<i class="HealthFacilities" style="display:none; background:' + dohMarkerOptions["fillColor"] + '"></i>' + '<span class="HealthFacilities" style="display:none;">DOH Hospital<br></span>' + '' +
-    '<i class="HealthFacilities" style="display:none; background:' + healthMarkerOptions["fillColor"] + '"></i><span class="HealthFacilities" style="display:none;">Health Facility<br></span>' +
+  div.innerHTML = '<i class="HealthFacilities" style="display:none; background:' + hospitalMarkerOptions["fillColor"] + '"></i>' + '<span class="HealthFacilities" style="display:none;">DOH Hospital<br></span>' + '' +
+    '<i class="HealthFacilities" style="display:none; background:' + rhuMarkerOptions["fillColor"] + '"></i><span class="HealthFacilities" style="display:none;">Health Facility<br></span>' +
     '<i class="RedCrossChapters" style="display:none; background:' + chapterMarkerOptions["fillColor"] + '"></i><span class="RedCrossChapters" style="display:none;">Red Cross Chapter<br></span>'+
     '<i class="SupplyChain" style="display:none; background:' + warehouseMarkerOptions["fillColor"] + '"></i><span class="SupplyChain" style="display:none;">Red Cross Warehouse<br></span>'+
     '<i class="SupplyChain" style="display:none; background:' + portMarkerOptions["fillColor"] + '"></i><span class="SupplyChain" style="display:none;">Port<br></span>'+
@@ -124,24 +141,71 @@ map.on('overlayremove', function(e){
 
 L.control.layers(baseMaps, overlayMaps).addTo(map);
 
-function getFacilityData() {
-  $.ajax({
-    type: 'GET',
-    url: 'data/facilities.geojson',
-    contentType: 'application/json',
-    dataType: 'json',
-    timeout: 10000,
-    success: function(data) {
-      console.log("Success!");
-      healthFacilitiesData = data;
-      getChaptersData();
 
-    },
-    error: function(e) {
-      console.log(e);
-    }
+function getFacilityData() {
+  d3.csv("data/facilities_new.csv", function(data){ 
+    formatData(data); 
   });
 }
+
+// format CSV data as geoJson
+function formatData(data){
+    $.each(data, function(index, item) {
+        var latlng = [item.lon, item.lat];
+        var thisGeoJsonObject = {
+            "type": "Feature",
+            "properties": {
+                "name": item.name,
+                "RHU / Hospital": item["RHU / Hospital"],
+                "items": {    
+                  "Utrasound machine": {
+                    "count": item["Utrasound machine"],
+                    "note": item["Utrasound machine NOTE"]
+                  },
+                  "Anesthesia machine": {
+                    "count": item["Anesthesia machine"],
+                    "note": item["Anesthesia machine NOTE"]
+                  }, 
+                  "Ventilator (portable)": {
+                    "count": item["Ventilator (portable)"], 
+                    "note": item["Ventilator (portable) NOTE"]
+                  }, 
+                  "Respirator (portable)": {
+                    "count": item["Respirator (portable)"], 
+                    "note": item["Respirator (portable) NOTE"]
+                  },
+                  "ECG machine": { 
+                    "count": item["ECG machine"], 
+                    "note": item["ECG machine NOTE"]
+                  },  
+                  "Generator 6KVA": { 
+                    "count": item["Generator 6KVA"],  
+                    "note": item["Generator 6KVA NOTE"]
+                  }, 
+                  "Std Eqpt for RHU": { 
+                    "count": item["Std Eqpt for RHU"],  
+                    "note": item["Std Eqpt for RHU NOTE"]
+                  }, 
+                  "OB/Del kits": { 
+                    "count": item["OB/Del kits"], 
+                    "note": item["OB/Del kits NOTE"]
+                  },  
+                  "First Aid kits": { 
+                    "count": item["First Aid kits"], 
+                    "note": item["First Aid kits NOTE"]
+                  }
+                }                              
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": latlng
+            }
+        };
+        healthFacilitiesData.push(thisGeoJsonObject);
+    });
+    getChaptersData();
+}
+
 
 function getChaptersData() {
   $.ajax({
@@ -183,14 +247,14 @@ function getSupplyChainData() {
 
 function mapData() {
   // Health facilities
-  L.geoJson(healthFacilitiesData.features, {
+  L.geoJson(healthFacilitiesData, {
     pointToLayer: function (feature, latlng){
       return L.circleMarker(latlng)
     },
     style: function(feature){
-        switch (feature.properties.type){
-          case 'hospital_doh': return dohMarkerOptions;
-          case 'health_facility': return healthMarkerOptions;
+        switch (feature.properties["RHU / Hospital"]){
+          case 'H': return hospitalMarkerOptions;
+          case 'R': return rhuMarkerOptions;
         }
     },
     onEachFeature: onEachHealthFacility
@@ -223,8 +287,24 @@ function mapData() {
 }
 
 function onEachHealthFacility(feature, layer) {
-  layer.bindPopup(feature.properties.name);
+  var popupHtml = "<h5>" + feature.properties.name + "</h5>";
+  var sumCosts = 0;
+  $.each(feature.properties.items, function(index, item){
+    if(parseInt(item.count)>=0){
+      var totalCost = parseInt(item.count) * returnPrice(index);
+      sumCosts += totalCost;
+      popupHtml += "<b>" + index + "</b> <small>(" + item.note + ")</small><br>" + 
+          item.count + 
+          // " x " + formatCommas(returnPrice(index)) + " = " + formatCommas(totalCost) + 
+          ((item.count == "1") ? " @ " + formatCommas(returnPrice(index)) : " x " + formatCommas(returnPrice(index)) + " = " + formatCommas(totalCost)) +
+          "<br>";
+    }
+  });
+  popupHtml += "<br>Total: " + formatCommas(sumCosts) + "<br><small>* all costs in PHP";
+  layer.bindPopup(popupHtml);
 }
+
+
 function onEachChapter(feature, layer) {
   layer.bindPopup(feature.properties.name);
 }
