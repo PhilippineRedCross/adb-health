@@ -31,6 +31,38 @@ body {
     color: #777;
 }
 
+.item-filter {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  z-index: 999;
+}
+
+.popup-text {
+  font-size: 16px;
+}
+.item-header {
+  font-weight: bold;
+  font-size: 18px;
+}
+.Notrequired {
+  background: #fb8072;
+}
+.Requiredasperoriginallist {
+  background: #8dd3c7;
+}
+.Proposedneeds {
+  background: #ffffb3;
+}
+.popup-legend-box {
+  height: 12px;
+  width: 12px;
+  margin-right: 5px;
+  margin-left: 15px;
+  display: inline-block;
+/*  border: 1px solid #6d6e70;*/
+}
+
 #loading {
   position: absolute;
   z-index: 99999;

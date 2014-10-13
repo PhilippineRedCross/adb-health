@@ -35,12 +35,34 @@
       </div>
     </div>
 
-    <div id="loading"><img id="loader" src="img/ajax_loader_gray_512.gif" /></div>    
+    <div id="loading"><img id="loader" src="img/ajax_loader_gray_512.gif" /></div> 
+
+     
      
     <div class="container-fluid">     
       
         <button class="btn btn-sm btn-zoom" type="button" onClick="zoomOut();"><span class="glyphicon glyphicon-zoom-out"></span> Full Extent</button> 
         <div id="map"></div>
+
+        <!-- Single button -->
+        <div class="btn-group dropup item-filter">
+          <button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+            Filter by Item: <span id="item-filter-label">ALL</span> <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#" onClick='filterMap("All");'>All</a></li>
+            <li class="divider"></li>
+            <li><a href="#" onClick='filterMap("Ultrasound machine");'>Ultrasound machine</a></li>
+            <li><a href="#" onClick='filterMap("Anesthesia machine");'>Anesthesia machine</a></li>
+            <li><a href="#" onClick='filterMap("Ventilator (portable)");'>Ventilator (portable)</a></li>
+            <li><a href="#" onClick='filterMap("Respirator (portable)");'>Respirator (portable)</a></li>
+            <li><a href="#" onClick='filterMap("ECG machine");'>ECG machine</a></li>
+            <li><a href="#" onClick='filterMap("Generator 6KVA");'>Generator 6KVA</a></li>
+            <li><a href="#" onClick='filterMap("Std Eqpt for RHU");'>Std Eqpt for RHU</a></li>
+            <li><a href="#" onClick='filterMap("OB/Del kits");'>OB/Del kits</a></li>
+            <li><a href="#" onClick='filterMap("First Aid kits");'>First Aid kits</a></li>
+          </ul>
+        </div>  
       
     </div> <!-- /.container-fluid -->
 

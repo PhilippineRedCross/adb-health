@@ -31,7 +31,7 @@ var extentGroup = new L.FeatureGroup();
 
 function returnPrice(item){
   switch (item){
-    case 'Utrasound machine': return 2443000;
+    case 'Ultrasound machine': return 2443000;
     case 'Anesthesia machine': return 1915000;
     case 'Ventilator (portable)': return 1100000;
     case 'Respirator (portable)': return 650000;
@@ -57,7 +57,6 @@ var baseMaps = {
   "HOT": hot
 };
 var overlayMaps = {
-    "Health Facilities": healthFacilities,
     "Red Cross Chapters": chapters,
     "Supply Chain": supplyChain
 };
@@ -115,14 +114,20 @@ var legend = L.control({position: 'bottomright'});
 
 legend.onAdd = function (map) {
   var div = L.DomUtil.create('div', 'info legend');
-  div.innerHTML = '<i class="HealthFacilities" style="display:none; background:' + hospitalMarkerOptions["fillColor"] + '"></i>' + '<span class="HealthFacilities" style="display:none;">DOH Hospital<br></span>' + '' +
-    '<i class="HealthFacilities" style="display:none; background:' + rhuMarkerOptions["fillColor"] + '"></i><span class="HealthFacilities" style="display:none;">Health Facility<br></span>' +
+  div.innerHTML =  'Facility Type:<br>'+'<i class="HealthFacilities" style="background:' + hospitalMarkerOptions["fillColor"] + '"></i>' + '<span class="HealthFacilities">DOH Hospital<br></span>' + '' +
+    '<i class="HealthFacilities" style="background:' + rhuMarkerOptions["fillColor"] + '"></i><span class="HealthFacilities">Health Facility<br></span>' +
+      'Item Need (on marker click):<br>' +
+      '<small><i class="popup-legend-box Requiredasperoriginallist"></i> Required (original list)<br> ' +
+      '<i class="popup-legend-box Proposedneeds"></i> Proposed needs<br> ' +
+      '<i class="popup-legend-box Notrequired"></i> Not required</small><br> ' +
     '<i class="RedCrossChapters" style="display:none; background:' + chapterMarkerOptions["fillColor"] + '"></i><span class="RedCrossChapters" style="display:none;">Red Cross Chapter<br></span>'+
     '<i class="SupplyChain" style="display:none; background:' + warehouseMarkerOptions["fillColor"] + '"></i><span class="SupplyChain" style="display:none;">Red Cross Warehouse<br></span>'+
     '<i class="SupplyChain" style="display:none; background:' + portMarkerOptions["fillColor"] + '"></i><span class="SupplyChain" style="display:none;">Port<br></span>'+
     '<i class="SupplyChain" style="display:none; background:' + airportMarkerOptions["fillColor"] + '"></i><span class="SupplyChain" style="display:none;">Airport<br></span>';
     return div;
 };
+
+    ;
 
 legend.addTo(map);
 
@@ -156,11 +161,14 @@ function formatData(data){
             "type": "Feature",
             "properties": {
                 "name": item.name,
+                "municip": item.municipali,
+                "province": item.Province,
                 "RHU / Hospital": item["RHU / Hospital"],
+
                 "items": {    
-                  "Utrasound machine": {
-                    "count": item["Utrasound machine"],
-                    "note": item["Utrasound machine NOTE"]
+                  "Ultrasound machine": {
+                    "count": item["Ultrasound machine"],
+                    "note": item["Ultrasound machine NOTE"]
                   },
                   "Anesthesia machine": {
                     "count": item["Anesthesia machine"],
@@ -286,24 +294,56 @@ function mapData() {
   $("#loader").remove();
 }
 
+function filterMap(item) {
+  $("#item-filter-label").html(item);
+  var displayedFacilities = [];
+
+  $.each(healthFacilitiesData, function(index, facility){
+    var itemObject = facility.properties["items"][item]
+    if(item === 'All'){
+      displayedFacilities.push(facility);
+    } else if(parseInt(itemObject.count) > 0){
+      displayedFacilities.push(facility);
+    }
+  });
+  // Health facilities
+  map.removeLayer(healthFacilities);
+  healthFacilities = L.featureGroup();
+  L.geoJson(displayedFacilities, {
+    pointToLayer: function (feature, latlng){
+      return L.circleMarker(latlng)
+    },
+    style: function(feature){
+        switch (feature.properties["RHU / Hospital"]){
+          case 'H': return hospitalMarkerOptions;
+          case 'R': return rhuMarkerOptions;
+        }
+    },
+    onEachFeature: onEachHealthFacility
+  }).addTo(healthFacilities);
+  map.addLayer(healthFacilities);
+  map.fitBounds(healthFacilities.getBounds().pad(0.1,0.1));
+
+}
+
 function onEachHealthFacility(feature, layer) {
-  var popupHtml = "<h5>" + feature.properties.name + "</h5>";
+  var popupHtml = "<h3>" + feature.properties.name + ' <br><small>'+ feature.properties.municip +
+    ", " + feature.properties.province + '</small></h3><div class="popup-text">';
   var sumCosts = 0;
   $.each(feature.properties.items, function(index, item){
     if(parseInt(item.count)>=0){
       var totalCost = parseInt(item.count) * returnPrice(index);
       sumCosts += totalCost;
-      popupHtml += "<b>" + index + "</b> <small>(" + item.note + ")</small><br>" + 
-          item.count + 
-          // " x " + formatCommas(returnPrice(index)) + " = " + formatCommas(totalCost) + 
+      popupHtml += '<span class="item-header ' + item.note.replace(/\s+/g, '') + '">' + index + '</span><br>' + 
+          item.count +  
           ((item.count == "1") ? " @ " + formatCommas(returnPrice(index)) : " x " + formatCommas(returnPrice(index)) + " = " + formatCommas(totalCost)) +
           "<br>";
     }
   });
-  popupHtml += "<br>Total: " + formatCommas(sumCosts) + "<br><small>* all costs in PHP";
+  popupHtml += "<br>Total: " + formatCommas(sumCosts) + "</div><small>* all costs in PHP<br>" +
+
   layer.bindPopup(popupHtml);
 }
-
 
 function onEachChapter(feature, layer) {
   layer.bindPopup(feature.properties.name);
