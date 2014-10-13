@@ -340,7 +340,7 @@ function onEachHealthFacility(feature, layer) {
           "<br>";
     }
   });
-  popupHtml += "<br>Total: " + formatCommas(sumCosts) + "</div><small>* all costs in PHP<br>" +
+  popupHtml += "<br>Total: " + formatCommas(sumCosts) + "</div><small>* all costs in PHP<br>";
 
   layer.bindPopup(popupHtml);
 }
