@@ -30,8 +30,17 @@ body {
     margin: 0 0 5px;
     color: #777;
 }
+.legend-hr{
+  margin: 6px 0px;
+}
 
 .item-filter {
+  position: absolute;
+  bottom: 12px;
+  left: 200px;
+  z-index: 999;
+}
+.type-filter {
   position: absolute;
   bottom: 12px;
   left: 12px;

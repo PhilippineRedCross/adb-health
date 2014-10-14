@@ -114,12 +114,13 @@ var legend = L.control({position: 'bottomright'});
 
 legend.onAdd = function (map) {
   var div = L.DomUtil.create('div', 'info legend');
-  div.innerHTML =  'Facility Type:<br>'+'<i class="HealthFacilities" style="background:' + hospitalMarkerOptions["fillColor"] + '"></i>' + '<span class="HealthFacilities">DOH Hospital<br></span>' + '' +
+  div.innerHTML = '<b><span id="facilityNumber">0</span> Facilities displayed</b><br>'+
+    'Facility Type:<br>'+'<i class="HealthFacilities" style="background:' + hospitalMarkerOptions["fillColor"] + '"></i>' + '<span class="HealthFacilities">DOH Hospital<br></span>' + '' +
     '<i class="HealthFacilities" style="background:' + rhuMarkerOptions["fillColor"] + '"></i><span class="HealthFacilities">Health Facility<br></span>' +
       'Item Need (on marker click):<br>' +
       '<small><i class="popup-legend-box Requiredasperoriginallist"></i> Required (original list)<br> ' +
       '<i class="popup-legend-box Proposedneeds"></i> Proposed needs<br> ' +
-      '<i class="popup-legend-box Notrequired"></i> Not required</small><br> ' +
+      '<i class="popup-legend-box Notrequired"></i> Not required</small><hr class="legend-hr"> ' +
     '<i class="RedCrossChapters" style="display:none; background:' + chapterMarkerOptions["fillColor"] + '"></i><span class="RedCrossChapters" style="display:none;">Red Cross Chapter<br></span>'+
     '<i class="SupplyChain" style="display:none; background:' + warehouseMarkerOptions["fillColor"] + '"></i><span class="SupplyChain" style="display:none;">Red Cross Warehouse<br></span>'+
     '<i class="SupplyChain" style="display:none; background:' + portMarkerOptions["fillColor"] + '"></i><span class="SupplyChain" style="display:none;">Port<br></span>'+
@@ -223,7 +224,6 @@ function getChaptersData() {
     dataType: 'json',
     timeout: 10000,
     success: function(data) {
-      console.log("Success!");
       chaptersData = data;
       getSupplyChainData();
 
@@ -242,7 +242,6 @@ function getSupplyChainData() {
     dataType: 'json',
     timeout: 10000,
     success: function(data) {
-      console.log("Success!");
       supplyChainData = data;
       mapData();
 
@@ -255,14 +254,15 @@ function getSupplyChainData() {
 
 function mapData() {
   // Health facilities
+  $("#facilityNumber").html(healthFacilitiesData.length.toString());
   L.geoJson(healthFacilitiesData, {
     pointToLayer: function (feature, latlng){
       return L.circleMarker(latlng)
     },
     style: function(feature){
         switch (feature.properties["RHU / Hospital"]){
-          case 'H': return hospitalMarkerOptions;
-          case 'R': return rhuMarkerOptions;
+          case 'Hospital': return hospitalMarkerOptions;
+          case 'RHU': return rhuMarkerOptions;
         }
     },
     onEachFeature: onEachHealthFacility
@@ -294,17 +294,26 @@ function mapData() {
   $("#loader").remove();
 }
 
-function filterMap(item) {
-  $("#item-filter-label").html(item);
+function filterMap(filterType, filter) {
+  if(filterType === "item"){
+    $("#item-filter-label").html(filter);
+  }
+  if(filterType === "type"){
+    $("#type-filter-label").html(filter);
+  }
+  var itemFilter = $("#item-filter-label").html();
+  var typeFilter = $("#type-filter-label").html();
+  
   var displayedFacilities = [];
 
   $.each(healthFacilitiesData, function(index, facility){
-    var itemObject = facility.properties["items"][item]
-    if(item === 'All'){
-      displayedFacilities.push(facility);
-    } else if(parseInt(itemObject.count) > 0){
-      displayedFacilities.push(facility);
+    var itemObject = facility.properties["items"][itemFilter]
+    if(typeFilter === 'All' || typeFilter === facility.properties["RHU / Hospital"]){
+      if(itemFilter === 'All' || parseInt(itemObject.count) > 0){
+        displayedFacilities.push(facility);
+      }
     }
+  $("#facilityNumber").html(displayedFacilities.length.toString());
   });
   // Health facilities
   map.removeLayer(healthFacilities);
@@ -315,8 +324,8 @@ function filterMap(item) {
     },
     style: function(feature){
         switch (feature.properties["RHU / Hospital"]){
-          case 'H': return hospitalMarkerOptions;
-          case 'R': return rhuMarkerOptions;
+          case 'Hospital': return hospitalMarkerOptions;
+          case 'RHU': return rhuMarkerOptions;
         }
     },
     onEachFeature: onEachHealthFacility

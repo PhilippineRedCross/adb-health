@@ -45,24 +45,38 @@
         <div id="map"></div>
 
         <!-- Single button -->
-        <div class="btn-group dropup item-filter">
-          <button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
-            Filter by Item: <span id="item-filter-label">ALL</span> <span class="caret"></span>
-          </button>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#" onClick='filterMap("All");'>All</a></li>
-            <li class="divider"></li>
-            <li><a href="#" onClick='filterMap("Ultrasound machine");'>Ultrasound machine</a></li>
-            <li><a href="#" onClick='filterMap("Anesthesia machine");'>Anesthesia machine</a></li>
-            <li><a href="#" onClick='filterMap("Ventilator (portable)");'>Ventilator (portable)</a></li>
-            <li><a href="#" onClick='filterMap("Respirator (portable)");'>Respirator (portable)</a></li>
-            <li><a href="#" onClick='filterMap("ECG machine");'>ECG machine</a></li>
-            <li><a href="#" onClick='filterMap("Generator 6KVA");'>Generator 6KVA</a></li>
-            <li><a href="#" onClick='filterMap("Std Eqpt for RHU");'>Std Eqpt for RHU</a></li>
-            <li><a href="#" onClick='filterMap("OB/Del kits");'>OB/Del kits</a></li>
-            <li><a href="#" onClick='filterMap("First Aid kits");'>First Aid kits</a></li>
-          </ul>
-        </div>  
+          <div class="btn-group dropup item-filter">
+            <button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+              Filter by Item: <span id="item-filter-label">All</span> <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#" onClick='filterMap("item", "All");'>All</a></li>
+              <li class="divider"></li>
+              <li><a href="#" onClick='filterMap("item", "Ultrasound machine");'>Ultrasound machine</a></li>
+              <li><a href="#" onClick='filterMap("item", "Anesthesia machine");'>Anesthesia machine</a></li>
+              <li><a href="#" onClick='filterMap("item", "Ventilator (portable)");'>Ventilator (portable)</a></li>
+              <li><a href="#" onClick='filterMap("item", "Respirator (portable)");'>Respirator (portable)</a></li>
+              <li><a href="#" onClick='filterMap("item", "ECG machine");'>ECG machine</a></li>
+              <li><a href="#" onClick='filterMap("item", "Generator 6KVA");'>Generator 6KVA</a></li>
+              <li><a href="#" onClick='filterMap("item", "Std Eqpt for RHU");'>Std Eqpt for RHU</a></li>
+              <li><a href="#" onClick='filterMap("item", "OB/Del kits");'>OB/Del kits</a></li>
+              <li><a href="#" onClick='filterMap("item", "First Aid kits");'>First Aid kits</a></li>
+            </ul>
+          </div>  
+
+          <div class="btn-group dropup type-filter">
+            <button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+              Filter by Type: <span id="type-filter-label">All</span> <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#" onClick='filterMap("type", "All");'>All</a></li>
+              <li class="divider"></li>
+              <li><a href="#" onClick='filterMap("type", "Hospital");'>Hospital</a></li>
+              <li><a href="#" onClick='filterMap("type", "RHU");'>RHU</a></li>
+
+            </ul>
+          </div> 
+
       
     </div> <!-- /.container-fluid -->
 
