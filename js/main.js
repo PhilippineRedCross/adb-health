@@ -5,9 +5,10 @@ $("#loader").css("height", pageHeight * 0.75 );
 var formatCommas = d3.format(",");
 
 // setup Leaflet map
-var mapHeight = $(window).height() - 50;
+var logoBarHeight = $("#logo-bar").height()
+var mapHeight = $(window).height() - logoBarHeight;
 
-$("#map").height(mapHeight);
+$("#map-container").height(mapHeight);
 
 var mapboxAttribution = '<a href="https://www.mapbox.com/" target="_blank">Mapbox</a> | Base data &copy; <a href="http://openstreetmap.org" target="_blank">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/" target="_blank">CC-BY-SA</a> | &copy; <a href="https://ifrc.org/" title="IFRC" target="_blank">IFRC</a> 2014 | <a title="Disclaimer" onClick="showDisclaimer();">Disclaimer</a>';
 var hotAttribution = 'Base data &copy; <a href="http://openstreetmap.org" target="_blank">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/" target="_blank">CC-BY-SA</a> | Map style by <a href="http://hot.openstreetmap.org" target="_blank">H.O.T.</a> | &copy; <a href="https://ifrc.org/" title="IFRC" target="_blank">IFRC</a> 2014 | <a title="Disclaimer" onClick="showDisclaimer();">Disclaimer</a>';
@@ -114,14 +115,15 @@ var legend = L.control({position: 'bottomright'});
 
 legend.onAdd = function (map) {
   var div = L.DomUtil.create('div', 'info legend');
-  div.innerHTML = '<b><span id="facilityNumber">0</span> Facilities displayed</b><br>'+
+  div.innerHTML = '<b style="font-size:125%; text-decoration:underline;">Haiyan Health Facility Recovery</b><br>' +
+    '<span id="facilityNumber">0</span> facilities displayed<br>'+
     'Facility Type:<br>'+'<i class="HealthFacilities" style="background:' + hospitalMarkerOptions["fillColor"] + '"></i>' + '<span class="HealthFacilities">DOH Hospital<br></span>' + '' +
     '<i class="HealthFacilities" style="background:' + rhuMarkerOptions["fillColor"] + '"></i><span class="HealthFacilities">Health Facility<br></span>' +
       'Item Need (on marker click):<br>' +
       '<small><i class="popup-legend-box Requiredasperoriginallist"></i> Required (original list)<br> ' +
       '<i class="popup-legend-box Proposedneeds"></i> Proposed needs<br> ' +
       '<i class="popup-legend-box Notrequired"></i> Not required</small><hr class="legend-hr"> ' +
-    '<i class="RedCrossChapters" style="display:none; background:' + chapterMarkerOptions["fillColor"] + '"></i><span class="RedCrossChapters" style="display:none;">Red Cross Chapter<br></span>'+
+    '<i class="RedCrossChapters" style="display:none; background:' + chapterMarkerOptions["fillColor"] + '"></i><span class="RedCrossChapters" style="display:none;">Red Cross Chapter<br><small>&nbsp;&nbsp;&nbsp;&nbsp; * involved in project</small><br></span>'+
     '<i class="SupplyChain" style="display:none; background:' + warehouseMarkerOptions["fillColor"] + '"></i><span class="SupplyChain" style="display:none;">Red Cross Warehouse<br></span>'+
     '<i class="SupplyChain" style="display:none; background:' + portMarkerOptions["fillColor"] + '"></i><span class="SupplyChain" style="display:none;">Port<br></span>'+
     '<i class="SupplyChain" style="display:none; background:' + airportMarkerOptions["fillColor"] + '"></i><span class="SupplyChain" style="display:none;">Airport<br></span>';
@@ -370,9 +372,9 @@ function zoomOut(){
 
 // adjust map div height on screen resize
 $(window).resize(function(){
-  mapHeight = $(window).height() - 50;
-  $("#map").height(mapHeight);
-  $("#infoWrapper").height(mapHeight);
+  logoBarHeight = $("#logo-bar").height()
+  mapHeight = $(window).height() - logoBarHeight;
+  $("#map-container").height(mapHeight);
 });
 
 // show disclaimer text on click of dislcaimer link

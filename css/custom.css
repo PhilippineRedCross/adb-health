@@ -3,8 +3,10 @@ html, body {
   width: 100%;
   margin:0px;  
 }
-body {
-  padding-top: 50px;
+
+#map {
+  width: 100%;
+  height: 100%;
 }
 
 .legend {
@@ -33,6 +35,7 @@ body {
 .legend-hr{
   margin: 6px 0px;
 }
+
 
 .item-filter {
   position: absolute;
@@ -88,8 +91,23 @@ body {
   padding: 0;
 }
 .prc-logo {
-  padding: 5px;
-  height: 100%;
+  margin: 5px 12px 5px 12px;
+  height: 45px;
+}
+.ifrc-logo {
+  margin: 15px 12px 15px 12px;
+  height: 30px;
+}
+.adb-logo {
+  margin: 5px 12px 5px 12px;
+  height: 40px;
+}
+.doh-logo {
+  margin: 5px 12px 5px 12px;
+  height: 50px;
+}
+.adb-name {
+  padding: 18px 12px 0px 12px;
 }
 .navbar-logo {
   padding: 0;
@@ -97,7 +115,7 @@ body {
 .btn-zoom {
   position: absolute;
   left: 47px;
-  top: 60px;
+  top: 10px;
   z-index: 1001;
   background-color: #ffffff;
   border-color: #d7d7d8;

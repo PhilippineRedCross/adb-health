@@ -25,13 +25,13 @@
   </head>
 
   <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
+    <div id="logo-bar">
+      
         <div>
-          <a class="navbar-brand navbar-logo" href="#" target="_blank"><img class="prc-logo" src="img/PRC-logo_whiteBorder.png"></a>
-          <a class="navbar-brand" href="http://www.redcross.org.ph/">Philippine Red Cross</a>
-          <a class="navbar-brand" href="#"><small>Asian Development Bank - Health Facility Recovery</small></a>
-        </div>
+          <a href="http://ifrc.org/" target="_blank"><img title="IFRC" class="ifrc-logo" src="img/IFRC-logo.png"></a>
+          <a href="http://redcross.org.ph/" target="_blank"><img title="Philippine Red Cross" class="prc-logo" src="img/PRC-logo.png"></a>
+          <a href="http://www.adb.org/" target="_blank"><img title="ADB" class="adb-logo" src="img/ADB-logo.png"></a>
+          <a href="http://www.doh.gov.ph/" target="_blank"><img title="DOH" class="doh-logo" src="img/PHL-DOH-logo.png"></a>
       </div>
     </div>
 
@@ -40,9 +40,10 @@
      
      
     <div class="container-fluid">     
-      
-        <button class="btn btn-sm btn-zoom" type="button" onClick="zoomOut();"><span class="glyphicon glyphicon-zoom-out"></span> Full Extent</button> 
-        <div id="map"></div>
+        <div id="map-container" style="position:relative;">
+          <button class="btn btn-sm btn-zoom" type="button" onClick="zoomOut();"><span class="glyphicon glyphicon-zoom-out"></span> Full Extent</button> 
+          <div id="map"></div>
+        </div>
 
         <!-- Single button -->
           <div class="btn-group dropup item-filter">
