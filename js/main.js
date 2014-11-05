@@ -121,6 +121,7 @@ legend.onAdd = function (map) {
     '<i class="HealthFacilities" style="background:' + rhuMarkerOptions["fillColor"] + '"></i><span class="HealthFacilities">Health Facility<br></span>' +
       'Item Need (on marker click):<br>' +
       '<small><i class="popup-legend-box Requiredasperoriginallist"></i> Required (original list)<br> ' +
+      '<i class="popup-legend-box DOHrevision"></i> DOH revision<br> ' +
       '<i class="popup-legend-box Proposedneeds"></i> Proposed needs<br> ' +
       '<i class="popup-legend-box Notrequired"></i> Not required</small><hr class="legend-hr"> ' +
     '<i class="RedCrossChapters" style="display:none; background:' + chapterMarkerOptions["fillColor"] + '"></i><span class="RedCrossChapters" style="display:none;">Red Cross Chapter<br><small>&nbsp;&nbsp;&nbsp;&nbsp; * involved in project</small><br></span>'+
@@ -354,6 +355,19 @@ function onEachHealthFacility(feature, layer) {
   popupHtml += "<br>Total: " + formatCommas(sumCosts) + "</div><small>* all costs in PHP<br>";
 
   layer.bindPopup(popupHtml);
+  layer.on({
+    mouseover: facilityMousover,
+    mouseout: facilityMouseout
+  });
+}
+
+function facilityMousover(e){
+  var tooltipText = e.target.feature.properties.name;
+  $('#tooltip').append(tooltipText); 
+}
+
+function facilityMouseout(e){
+  $('#tooltip').empty(); 
 }
 
 function onEachChapter(feature, layer) {
@@ -381,5 +395,17 @@ $(window).resize(function(){
 function showDisclaimer() {
     window.alert("The maps used do not imply the expression of any opinion on the part of the International Federation of Red Cross and Red Crescent Societies or National Societies concerning the legal status of a territory or of its authorities.");
 }
+
+// tooltip follows cursor
+$(document).ready(function() {
+    $('#map').mouseover(function(e) {        
+        //Set the X and Y axis of the tooltip
+        $('#tooltip').css('top', e.pageY + 10 );
+        $('#tooltip').css('left', e.pageX + 20 );         
+    }).mousemove(function(e) {    
+        //Keep changing the X and Y axis for the tooltip, thus, the tooltip move along with the mouse
+        $("#tooltip").css({top:(e.pageY+15)+"px",left:(e.pageX+20)+"px"});        
+    });
+});
 
 getFacilityData();
